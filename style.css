@@ -1,0 +1,517 @@
+ @import url('https://fonts.googleapis.com/css2?family=Orbitron&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #141414;
+    color: #fff;
+    display: flex;
+    font-family: system-ui,  'Segoe UI',  'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 8px;
+    justify-content: center;
+} 
+
+.parent-container {
+    background-image: radial-gradient( #903AFF,  #150e28);
+    width: 550px;
+}
+
+.first-section {
+    margin-left: 30px;
+}
+
+.color-edit {
+    color: #d434fe;
+}
+
+header {
+    align-items: center;
+    border-bottom: 1px solid #4a494b81;
+    display: flex;
+    height: 60px;
+    justify-content: space-around;
+    /* padding: 20px; */
+}
+
+.middle-section span {
+    margin-right: 10px;
+}
+
+.button {
+    background-image: linear-gradient(270deg, #903AFF 0%, #FE34B9 100%);
+    border-radius: 2px;
+    border-style: none;
+    color: #fff;
+    font-size: 8px;
+    width: 70px;
+    height: 25px;
+}
+
+h1 {
+    font-size: 23px;
+} 
+
+.reg-button {
+    margin-top: 20px;
+    margin-bottom: 25px;
+}
+
+.header-2nd {
+    display: flex;
+    font-style: italic;
+    justify-content: flex-end;
+    margin-right: 10px;
+}
+
+.woman-man {
+    margin-top: 20px;
+}
+
+
+.image-text-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-bottom: 1px solid #9279aa81;
+}
+
+.section {
+    display: flex;
+    justify-content: space-evenly;
+    border-bottom: 1px solid #796b8681;
+    align-items: center;
+}
+
+.paragraphs {
+    width: 200px;
+} 
+
+.judging-criteria {
+    width: 277px;
+    margin-top: 5px;
+}
+
+.second-color {
+    color: #FE34B9;
+}
+
+.read-more {
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+
+.criterias {
+    margin-top: 15px;
+}
+
+.frequent-question {
+    width: 205px;
+    margin-top: 10px;
+    border-bottom: 2px solid #d434fe;
+}
+
+.timeline-head {
+    display: grid;
+    justify-content: center;
+}
+
+.timeline-head h3 {
+    margin-top: 20px;
+    margin-left: 50px;
+}
+
+
+.timeline-head p:nth-child(3) {
+    margin-left: 30px;
+    margin-bottom: 10px;
+}
+
+.timelines {
+    display: flex;
+    justify-content: space-evenly;
+    border-bottom: 1px solid #9279aa81;
+}
+
+.left {
+    margin-top: 25px;
+}
+
+.right {
+    margin-top: 20px;
+    margin-bottom: 15px;
+}
+
+.scheduled {
+    margin-bottom: 15px;
+}
+
+.schedule {
+    margin-bottom: 22px; 
+}
+
+.award-section {
+    display: flex;
+    justify-content: space-around;
+} 
+
+.prizes {
+    margin: 20px 20px 20px 0px;
+}
+
+.partners-sponsors {
+    display: grid;
+    justify-content: center;
+}
+.partners-sponsors h2 {
+    margin-left: 30px;
+    margin-top: 25px;
+}
+.partners-sponsors p:nth-child(3) {
+    margin-left: 20px;
+}
+
+.sponsors {
+    border: 1px solid #964ca8; 
+    margin-bottom: 20px;
+    margin-top: 20px;
+    padding: 30px;
+}
+
+.privacy-policy {
+    margin-top: 30px;
+    width: 220px;
+    margin-left: 40px;
+    margin-bottom: 10px;
+}
+
+.privacy-policy :nth-child(3) {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.division {
+    border: 1px solid #903aff;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+}
+
+.division h2, h3{
+    margin-left: 15px;
+}
+
+.division p {
+    width: 200px;
+    margin: 15px;
+}
+
+.third-button {
+    background-image: linear-gradient(270deg, #903AFF 0%, #fe34b9 100%);
+    border-radius: 3px;
+    border-style: none;
+    color: #fff;
+    font-size: 8px;
+    height: 25px;
+    margin-left: 30%;
+    width: 70px;
+}
+
+
+.position-relative {
+ position: relative;
+ margin-bottom: 50px;
+}
+
+.vector {
+    position: absolute;
+    left: 30px;
+    bottom: 120px;
+} 
+
+
+footer {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 20px;
+}
+
+.tech-innovation {
+    width: 250px;
+    margin-top: 7px;
+    margin-bottom: 20px;
+}
+
+
+.social-media {
+    margin-bottom: 7px;
+    margin-top: 5px;
+}
+
+.platform {
+    margin-left: 230px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* .division:p { */
+    /* width: 300px; 
+} */
+/* .sponsors {
+    position: absolute;
+    left: 30vw;
+    top: 290vh;
+} */
+
+
+/* .figure,
+.second-figure {
+    margin: 0 10px;
+}
+
+.app-icon {
+    cursor: var(--CURSOR);
+    position: relative;
+} 
+
+.figure .tooltip {
+    position: absolute;
+    background-color:  rgb(90, 90, 90);
+    color: var(--COLOR);
+    padding: 4px 8px;
+    border-radius: 2px;
+    font-size: 12px;
+    bottom: 90vh;
+    right: 6vh;
+    opacity: 0;
+    transition: opacity 0.15;
+    pointer-events: none;
+}
+
+.figure:hover .tooltip,
+.second-figure:hover .second-tooltip {
+    opacity: 1;
+}
+
+.profile-icon {
+ border-radius: 15px;
+ margin-top: -4px;
+}
+
+.second-figure .second-tooltip {
+    position: absolute;
+    background-color: rgb(90, 90, 90);
+    color: #c9c6c6;
+    padding: 4px 8px;
+    border-radius: 4px;
+    font-size: 12px;
+    bottom: 86vh;
+    right: 4vh;
+    opacity: 0;
+    transition: opacity 0.15s;
+    pointer-events: none;
+}
+
+.second-tooltip :nth-child(1) {
+    color: var(--COLOR);
+}
+
+.gmail:hover,
+.image:hover {
+    text-decoration: underline;
+}
+
+main {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 11vh;
+}
+
+h1 {
+    letter-spacing: -12px;
+    font-size: var(--FONT-SIZE);
+    font-weight: var(--FONT-WEIGHT); 
+
+}
+ */
+
+
+
+ /* External Elements */
+
+/* position: absolute;
+width: 754px;
+height: 533px; */
+
+
+
+/* Rectangle 1 */
+/* 
+position: absolute;
+width: 508px;
+height: 123px;
+
+background: #80FF00; */
+
+
+/* Getlinked Hackathon 1.0 LandingPage (Web View) */
+
+/* position: absolute;
+width: 426px;
+height: 78px;
+
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 700;
+font-size: 32px;
+line-height: 39px;
+
+color: #000000; */
+
+
+
+/* Color guide 
+
+position: absolute;
+width: 754px;
+height: 151px;
+
+
+
+/* Rectangle 2 */
+
+/* position: absolute;
+width: 172px;
+height: 151px;
+
+background: #150E28; */
+
+
+/* Rectangle 5 */
+
+/* position: absolute;
+width: 172px;
+height: 151px;
+
+background: linear-gradient(270deg, #903AFF 0%, #FE34B9 100%); */
+
+
+/* Rectangle 3 */
+/* 
+position: absolute;
+width: 172px;
+height: 151px;
+
+background: #D434FE; */
+
+
+/* Rectangle 4 */
+
+/* position: absolute;
+width: 172px;
+height: 151px;
+
+background: #903AFF; */
+
+
+/* 1.0 Colour */
+/* 
+position: absolute;
+width: 171px;
+height: 43px;
+
+font-family: 'Clash Display';
+font-style: normal;
+font-weight: 700;
+font-size: 32px;
+line-height: 43px;
+/* identical to box height 
+
+color: #FFFFFF;
+ */
+
+
+/* Primary colour */
+
+/* position: absolute;
+width: 119px;
+height: 21px;
+
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 133%;
+/* or 21px 
+
+color: #FFFFFF;
+
+ */
+
+/* 150E28 */
+
+/* position: absolute;
+width: 58px;
+height: 21px;
+
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 133%;
+/* or 21px 
+
+color: #FFFFFF; */
+
+
+
+/* 903AFF 
+
+position: absolute;
+width: 63px;
+height: 21px;
+
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 133%;
+/* or 21px 
+
+/* color: #FFFFFF;
+
+
+
+/* D434FE 
+
+position: absolute;
+width: 61px;
+height: 21px;
+
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 133%;
+/* or 21px 
+
+color: #FFFFFF; */
+
+
